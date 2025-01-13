@@ -1,7 +1,13 @@
 #include <iostream>
+#include "GameManager.h"
+#include "Character.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Character* character = new Character("ÇÑÁ¤Çõ");
+
+    character->DisplayStatus();
+
+    return 0;
 }
 
