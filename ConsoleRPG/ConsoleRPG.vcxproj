@@ -130,12 +130,15 @@
   <ItemGroup>
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="ConsoleRPG.cpp" />
+    <ClCompile Include="ExceptionHandler.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Monster.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Character.h" />
+    <ClInclude Include="EnumCollection.h" />
+    <ClInclude Include="ExceptionHandler.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="GlobalData.h" />
     <ClInclude Include="Item.h" />
